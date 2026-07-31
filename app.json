@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "GoSmart",
+    "slug": "gosmart-mobile",
+    "scheme": "gosmart",
+    "plugins": [
+      "expo-router",
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "GoSmart uses your location to share your bus's live position with passengers while your trip is active."
+        }
+      ]
+    ]
+  }
+}
